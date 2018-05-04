@@ -1,15 +1,11 @@
-# Tasks requirements
+# Info 
 
-Write a program to calculate the total price of your phone purchase. You will keep purchasing phones (hint: loop!) until you run out of money in your bank account. You'll also buy accessories for each phone as long as your purchase amount is below your mental spending threshold.
-After you've calculated your purchase amount, add in the tax, then print out the calculated purchase amount, properly formatted.
-Finally, check the amount against your bank account balance to see if you can afford it or not.
-You should set up some constants for the "tax rate," "phone price," "accessory price," and "spending threshold," as well as a variable for your "bank account balance.""
-You should define functions for calculating the tax and for formatting the price with a "$" and rounding to two decimal places.
-Bonus Challenge: Try to incorporate input into this program, perhaps with the prompt(..) covered in "Input" earlier. You may prompt the user for their bank account balance, for example. Have fun and be creative!
+JS timer to countdown until an event date.
 
-# Quirks:
-current balance when adding to phone accessory creates 00000001
+Event date is set through enabling a featured event field in backend, which is then output to DOM through existing API of the CMS (Statmatic v2), 
 
-# Improve
-Format could format bankBalance and round to tofixed 
+JS file then works by parsing the event date to a JS date object, then taking the current time and finding the difference. Countdown displays days, hours, minutes and seconds.
 
+If the date of the event, hide <li> items by adding a custom hide class. Then add a show class to the text displaying no event
+
+If the date of event is in the past, set counters to 0
