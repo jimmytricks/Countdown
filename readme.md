@@ -6,6 +6,6 @@ Event date is set through enabling a featured event field in backend, which is t
 
 JS file then works by parsing the event date to a JS date object, then taking the current time and finding the difference. Countdown displays days, hours, minutes and seconds.
 
-If the date of the event, hide <li> items by adding a custom hide class. Then add a show class to the text displaying no event
+If the date of the event, hide li items by adding a custom hide class. Then add a show class to the text displaying no event
 
 If the date of event is in the past, set counters to 0
